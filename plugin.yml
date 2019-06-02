@@ -9,12 +9,12 @@ main: Thunder33345\StaffChat\StaffChat
 
 commands:
   staffchat:
-    description: "Staff chat command"
+    description: ""
     aliases: ['sc']
 
 permissions:
   staffchat:
-    default: op
+    default: true
     children:
       staffchat.read:
         default: op
